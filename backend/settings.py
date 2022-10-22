@@ -27,7 +27,7 @@ SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'django-react-proshop-production.up.railway.app']
+ALLOWED_HOSTS = ['django-react-proshop-production.up.railway.app', '127.0.0.1', 'localhost',]
 
 
 # Application definition
