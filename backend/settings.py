@@ -27,7 +27,7 @@ SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'web-production-afdc.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'django-react-proshop-production.up.railway.app']
 
 
 # Application definition
@@ -202,4 +202,4 @@ CORS_ALLOW_ALL_ORIGINS = True
 # whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS = ['web-production-afdc.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['django-react-proshop-production.up.railway.app']
