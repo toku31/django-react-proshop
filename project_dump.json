@@ -1,0 +1,152 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$AKmXtomwX0gl$g3a0p/MmeGWBpyjHsGWCFPDWHx1Kvgpa/6YtCcfDmlA=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "user@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "user@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-01-01T07:45:54.332Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "base.product",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Airpods Wireless Bluetooth Headphonesame",
+        "image": "airpods_ZsHh8x8.jpg",
+        "brand": "Apple",
+        "category": "Electronics",
+        "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+        "rating": null,
+        "numReviews": 0,
+        "price": "89.99",
+        "countInStock": 100,
+        "CreatedAt": "2022-01-01T07:56:21.207Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "iPhone 11 Pro 256GB Memory",
+        "image": "phone_rlg4XOF.jpg",
+        "brand": "Apple",
+        "category": "Electronics",
+        "description": "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+        "rating": null,
+        "numReviews": 0,
+        "price": "599.99",
+        "countInStock": 5,
+        "CreatedAt": "2022-01-01T08:07:06.018Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Cannon EOS 80D DSLR Camera",
+        "image": "camera_HscgQRC.jpg",
+        "brand": "Cannon",
+        "category": "Electronics",
+        "description": "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+        "rating": null,
+        "numReviews": 0,
+        "price": "929.99",
+        "countInStock": 3,
+        "CreatedAt": "2022-01-03T09:15:08.681Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Sony Playstation 4 Pro White Version",
+        "image": "playstation_8vzWtHg.jpg",
+        "brand": "Sony",
+        "category": "Sample Category",
+        "description": "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
+        "rating": null,
+        "numReviews": 0,
+        "price": "399.99",
+        "countInStock": 11,
+        "CreatedAt": "2022-01-03T09:21:04.515Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Logitech G-Series Gaming Mouse",
+        "image": "mouse_FPEgYf5.jpg",
+        "brand": "Logitech",
+        "category": "Electronics",
+        "description": "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
+        "rating": null,
+        "numReviews": 0,
+        "price": "49.99",
+        "countInStock": 6,
+        "CreatedAt": "2022-01-03T09:27:32.364Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Amazon Echo Dot 3rd Generation",
+        "image": "alexa_LyIUDe6.jpg",
+        "brand": "Amazon",
+        "category": "Electronics",
+        "description": "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+        "rating": null,
+        "numReviews": 0,
+        "price": "29.99",
+        "countInStock": 0,
+        "CreatedAt": "2022-01-03T09:29:55.527Z"
+    }
+},
+{
+    "model": "base.product",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "user@gmail.com"
+        ],
+        "name": "Sample Name",
+        "image": "/placeholder.png",
+        "brand": "Sample Brand",
+        "category": "Sample Category",
+        "description": "",
+        "rating": null,
+        "numReviews": 0,
+        "price": "0.00",
+        "countInStock": 0,
+        "CreatedAt": "2022-01-03T09:49:43.024Z"
+    }
+}
+]
