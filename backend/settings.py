@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['django-react-proshop-production.up.railway.app', '127.0.0.1', 'localhost',]
 
@@ -145,7 +145,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # print(os.environ['DB_PASS'])
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost/proshop')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost:5433/proshop')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -194,6 +194,7 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = BASE_DIR / 'static/images'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 if os.getcwd() == '/app':
@@ -202,4 +203,4 @@ if os.getcwd() == '/app':
 # whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS = ['django-react-proshop-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['http://django-react-proshop-production.up.railway.app']
