@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['django-react-proshop-production.up.railway.app', '127.0.0.1', 'localhost',]
 
@@ -196,8 +196,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# if os.getcwd() == '/app':
-#     DEBUG = False
+if os.getcwd() == '/app':
+    DEBUG = False
 
 # whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
