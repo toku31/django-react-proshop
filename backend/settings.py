@@ -18,8 +18,8 @@ import environ
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env = environ.Env()  # added
-env.read_env(os.path.join(BASE_DIR, ".env"))  # added
+# env = environ.Env()  # added
+# env.read_env(os.path.join(BASE_DIR, ".env"))  # added
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,10 +29,10 @@ env.read_env(os.path.join(BASE_DIR, ".env"))  # added
 SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['django-react-proshop-production.up.railway.app', '127.0.0.1', 'localhost',]
+# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['wholesale-governor-production.up.railway.app', '127.0.0.1', 'localhost',]
 
 
 # Application definition
@@ -207,8 +207,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 # whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
-# CSRF_TRUSTED_ORIGINS = ['http://django-react-proshop-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['http://wholesale-governor-production.up.railway.app']
 
-SUPERUSER_NAME = env("SUPERUSER_NAME")
-SUPERUSER_EMAIL = env("SUPERUSER_EMAIL")
-SUPERUSER_PASSWORD = env("SUPERUSER_PASSWORD")
+# SUPERUSER_NAME = env("SUPERUSER_NAME")
+# SUPERUSER_EMAIL = env("SUPERUSER_EMAIL")
+# SUPERUSER_PASSWORD = env("SUPERUSER_PASSWORD")
